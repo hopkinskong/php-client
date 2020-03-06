@@ -21,13 +21,18 @@
     {
       "type": "vcs",
       "url": "https://github.com/hopkinskong/bitcoin-php.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/drslump/Protobuf-PHP.git"
     }
   ],
   "require": {
     "php": ">=5.5.0",
     "ext-curl": "*",
     "ext-json": "*",
-    "bitwasp/bitcoin_v0071": "dev-master"
+    "bitwasp/bitcoin_v0071": "dev-master",
+    "drslump/Protobuf-PHP": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "4.6.*",
