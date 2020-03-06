@@ -17,6 +17,12 @@
       "homepage": "https://github.com/blockcypher/php-client/contributors"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hopkinskong/bitcoin-php.git"
+    }
+  ],
   "require": {
     "php": ">=5.5.0",
     "ext-curl": "*",
