@@ -2,8 +2,7 @@
 
 namespace BlockCypher\Crypto;
 
-//use BitWasp\Bitcoin\Key\PrivateKeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface; // Fixed for Bitwasp new version
+use BitWasp\Bitcoin\Key\PrivateKeyInterface;
 use BlockCypher\Validation\ArgumentArrayValidator;
 use BlockCypher\Validation\CoinSymbolValidator;
 
